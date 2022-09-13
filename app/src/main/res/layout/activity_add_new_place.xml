@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    tools:context=".AddNewPlaceActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:text="Enter details of the place...."
+            android:paddingTop="8dp"
+            android:paddingLeft="8dp"
+            android:paddingBottom="22dp"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+        <EditText
+            android:id="@+id/place_state_name_edit_text"
+            android:inputType="textCapWords"
+            android:layout_width="match_parent"
+            android:padding="18dp"
+            android:layout_height="wrap_content"
+            android:hint="State Name"></EditText>
+        <EditText
+            android:id="@+id/place_name_edit_text"
+            android:inputType="textCapWords"
+            android:layout_width="match_parent"
+            android:padding="18dp"
+            android:layout_height="wrap_content"
+            android:hint="Place Name"></EditText>
+        <EditText
+            android:id="@+id/place_catagory_edit_text"
+            android:inputType="textCapWords"
+            android:layout_width="match_parent"
+            android:padding="18dp"
+            android:layout_height="wrap_content"
+            android:hint="Catagory"></EditText>
+        <EditText
+            android:id="@+id/place_direction_edit_text"
+            android:inputType="textCapWords"
+            android:layout_width="match_parent"
+            android:padding="18dp"
+            android:layout_height="wrap_content"
+            android:hint="North/South/East/West"></EditText>
+        <EditText
+            android:id="@+id/general_info_edit_text"
+            android:inputType="textCapWords"
+            android:layout_width="match_parent"
+            android:padding="18dp"
+            android:layout_height="wrap_content"
+            android:hint="General Information"></EditText>
+        <EditText
+            android:id="@+id/no_of_sights_edit_text"
+            android:layout_width="match_parent"
+            android:padding="18dp"
+            android:layout_height="wrap_content"
+            android:hint="No. of sights to explore"></EditText>
+
+        <EditText
+            android:id="@+id/spots_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="spot1,spot2,....."
+            android:padding="18dp"></EditText>
+
+        <EditText
+            android:id="@+id/approx_cost_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Approx_cost_to_explore_all_sights"
+            android:padding="18dp"></EditText>
+
+        <Button
+            android:id="@+id/choose_image_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="choose image">
+        </Button>
+
+        <TextView
+            android:id="@+id/image1_text_view"
+            android:text="image1"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:id="@+id/image2_text_view"
+            android:text="image2"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:id="@+id/image3_text_view"
+            android:text="image3"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+        <Button
+            android:id="@+id/upload_button"
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload" />
+
+    </LinearLayout>
+
+</ScrollView>

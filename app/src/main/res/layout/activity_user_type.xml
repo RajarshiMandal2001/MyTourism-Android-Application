@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserTypeActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical">
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/image_slider_1"
+        android:layout_width="match_parent"
+        app:iss_auto_cycle="true"
+        app:iss_period="3000"
+        android:layout_height="230dp"/>
+    <Button
+        android:id="@+id/customer"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Let's Travel">
+    </Button>
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/image_slider_2"
+        android:layout_width="match_parent"
+        app:iss_auto_cycle="true"
+        app:iss_period="3100"
+        android:layout_height="230dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/explorer"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Explorer"
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/hotel"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="1"
+            android:text="Add Hotel"></Button>
+    </LinearLayout>
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/image_slider_3"
+        android:layout_width="match_parent"
+        app:iss_auto_cycle="true"
+        app:iss_period="3500"
+        android:layout_height="230dp"/>
+    <Button
+        android:id="@+id/admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADMIN"></Button>
+
+</LinearLayout>
+</ScrollView>

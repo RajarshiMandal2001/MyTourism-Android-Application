@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewHotelActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/hotel_image_slider"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+         />
+
+    <TextView
+        android:id="@+id/hotel_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hotel"
+        android:textAlignment="center"
+        android:background="#FDD017"
+        android:textColor="#493D26"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/bhk_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:paddingTop="8dp"
+            android:text="TextView"
+            android:textColor="#00FF00"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:paddingTop="8dp"
+            android:text="BHK"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Affordable Price">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:paddingTop="8dp"
+            android:text="(one night stay)Rs."
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/hotel_cost_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:paddingTop="8dp"
+            android:text="price"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Offivial Website Link">
+    </TextView>
+
+    <TextView
+        android:layout_marginLeft="8dp"
+        android:id="@+id/hotel_website_link_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="link"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"></TextView>
+
+    <TextView
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Features of this hotel !">
+    </TextView>
+    <TextView
+        android:layout_marginLeft="8dp"
+        android:id="@+id/hotel_general_info_text_view"
+        android:layout_marginTop="8dp"
+        android:text="info"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:layout_marginLeft="8dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textStyle="italic"
+        android:layout_marginTop="8dp"
+        android:id="@+id/book_hotel_now_link_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="book Now Link"
+        android:textSize="20sp">
+    </TextView>
+
+</LinearLayout>
+</ScrollView>
